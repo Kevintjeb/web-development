@@ -1,0 +1,32 @@
+.toggle .header {
+    display: block;
+    clear: both;
+    cursor: pointer;
+    margin: 10px;
+}
+.toggle .header p {
+    display: inline;
+}
+
+.toggle .header:after {
+    content: " ▶";
+}
+
+.toggle .header.open:after {
+    content: " ▼";
+}
+
+.blok {
+    border: 1px solid #343131;
+    padding: 10px;
+    margin-bottom: 20px;
+    }
+
+.highlight { 
+    -webkit-user-select: none; 
+    -webkit-touch-callout: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;    
+    color: #cc0000;
+}
